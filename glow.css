@@ -1,0 +1,27 @@
+body {
+    padding: 0em;
+    margin: 0;
+    background: black;
+}
+.red-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100v
+}
+h1 {
+    color: hsl(0, 0%, 30%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+}
+h1:hover {
+    color: hsl(0, 100%, 50%);
+    text-shadow: 0 0 10px hsl(0, 100%, 50%), 0 0 20px hsl(0, 100%, 50%), 0 0 40px hsl(0, 100%, 50%);
+}
+
+h1 {
+    transition: 0.5s ease-out;
+}
